@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .link {
+        border: none;
+        margin-bottom: 10px;
+        padding: 0 5px 0px 5px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+
+    .link:hover {
+        background: rgb(180, 180, 197);
+    }
+    #grid-img img {
+        max-width: 50px;
+        margin: 10px 0 10px 0;
+    }
+
+    #grid-img div {
+        border: 2px solid grey ;
+        padding: 16px;
+        border-radius: 6px;
+    }
+    #grid-img h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #grid-img p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    #feedback div {
+        background-color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+    }
+    #one div {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    #one h3 {
+        font-weight: 700;
+        margin-top: 5px;
+    }
+}
